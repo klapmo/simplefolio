@@ -1,0 +1,251 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  -
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>David Klapman | Full Stack Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="klapmo, javascript, react, python, java" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="David Klapman | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">David Klapman</span>
+          <br />
+          Placeholder
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Get to know me</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I'm a Chicago [suburb] native.
+                I've worn many hats in my time, working in sales, account management, held leadership
+                positions, and most recently got into web development. I'm a firm believer in doing things
+                that challenge you, force you to think differently about problems, and allow you to 
+                be creative. I love working with new technologies and how to apply them in interesting ways.
+              </p>
+              <p class="about-wrapper__info-text">
+                I have experience with Python, Java, and Javascript, as well as the Flask, Spring, and React frameworks, among others.
+                I've leveraged AWS in my projects, including Lambdas, DyanmoDB, and SES (Simple Email Service).
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">TravelHunt</h3>
+                <div>
+                  <p class="mb-4">
+                    TravelHunt is an application with making the most of your trips in mind.
+                    It allows users to plan out points of interest anywhere they intend on traveling and,
+                    once there, view those points of interest on a map relative to their location. From there,
+                    a user can select a POI and be given a Google Maps route to get them there and check it off the list!
+                    Built Using: Angular 7, Firebase
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="http://travel-hunt.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/klapmo/TravelHunt">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Dead Set</h3>
+                <div>
+                  <p class="mb-4">
+                    Dead Set is a small project with a friend to track Dead & Company performances
+                    and view their sets the following day. It will provide statistics on song frequency, 
+                    typical set structures, and in the future, predictions for future shows based on the past.
+                    Built Using: React, Python, Postgres
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Nimble Weather</h3>
+                <div>
+                  <p class="mb-4">
+                    Small Javascript weather application built with React. Utilizes Metaweather API.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/project.jpg" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            I'd love to see how I can help!
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:dklapman@gmail.com"
+            >Email Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://twitter.com/klapmo" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <!-- <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a> -->
+          <a href="https://www.linkedin.com/in/david-klapman-b8087422/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://www.github.com/klapmo" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
